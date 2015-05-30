@@ -18,6 +18,22 @@ false == (847 == '874')
 (!true || (!(100 / 5) == 20) || ((328 / 4) == 82)) || false
 
 
+
+# Exercise 2
+
+def cap(words)
+	if words.length > 10
+		words.upcase
+	else
+		words
+	end
+end
+
+puts cap("Hello.")
+puts cap("Yo Yo Yo, what's the deal???")
+
+
+
 # Exercise 3
 
 def result1(num)
@@ -34,6 +50,34 @@ def result1(num)
 	else
 		"#{num} is waaaayyyyyy more than 100!!!"
 	end
+end
+
+
+
+# Exercise 4
+
+# FALSE
+'4' == 4 ? puts("TRUE") : puts("FALSE")
+
+# "Did you get it right?"
+x = 2
+if ((x * 3) / 2) == (4 + 4 - x - 3)
+	puts "Did you get it right?"
+else
+	puts "Did you?"
+end
+
+# "Alright now!"
+y = 9
+x = 10
+if (x + 1) <= (y)
+	puts "Alright."
+elsif (x + 1) >= (y)
+	puts "Alright now!"
+elsif (y + 1) == x
+	puts "ALRIGHT NOW!"
+else
+	puts "Alrighty!"
 end
 
 
