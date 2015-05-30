@@ -1,5 +1,22 @@
 #!/usr/bin/ruby
 
+# Exercise 1
+
+#False
+(32 * 4) >= 129
+
+#False
+false != !true
+
+#False
+true == 4
+
+#True
+false == (847 == '874')
+
+#True
+(!true || (!(100 / 5) == 20) || ((328 / 4) == 82)) || false
+
 
 # Exercise 3
 
