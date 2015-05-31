@@ -6,7 +6,7 @@
 puts "Joe " + "Schmo"
 
 
-
+  
 # Exercise 2
 
 puts 7463 / 1000

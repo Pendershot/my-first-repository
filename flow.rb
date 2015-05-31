@@ -22,11 +22,11 @@ false == (847 == '874')
 # Exercise 2
 
 def cap(words)
-	if words.length > 10
-		words.upcase
-	else
-		words
-	end
+  if words.length > 10
+    words.upcase
+  else
+    words
+  end
 end
 
 puts cap("Hello.")
@@ -37,19 +37,19 @@ puts cap("Yo Yo Yo, what's the deal???")
 # Exercise 3
 
 def result1(num)
-	if num < 0
-		"No negative numbers!"
-	elsif num == 0
-		"You picked zero, really??"
-	elsif num <= 50
-		"#{num} is between 1 and 50."
-	elsif num <= 100
-		"#{num} is between 51 and 100."
-	elsif num <= 1000
-		"#{num} is greater than 100."
-	else
-		"#{num} is waaaayyyyyy more than 100!!!"
-	end
+  if num < 0
+    "No negative numbers!"
+  elsif num == 0
+    "You picked zero, really??"
+  elsif num <= 50
+    "#{num} is between 1 and 50."
+  elsif num <= 100
+    "#{num} is between 51 and 100."
+  elsif num <= 1000
+    "#{num} is greater than 100."
+  else
+    "#{num} is waaaayyyyyy more than 100!!!"
+  end
 end
 
 
@@ -62,22 +62,22 @@ end
 # "Did you get it right?"
 x = 2
 if ((x * 3) / 2) == (4 + 4 - x - 3)
-	puts "Did you get it right?"
+  puts "Did you get it right?"
 else
-	puts "Did you?"
+  puts "Did you?"
 end
 
 # "Alright now!"
 y = 9
 x = 10
 if (x + 1) <= (y)
-	puts "Alright."
+  puts "Alright."
 elsif (x + 1) >= (y)
-	puts "Alright now!"
+  puts "Alright now!"
 elsif (y + 1) == x
-	puts "ALRIGHT NOW!"
+  puts "ALRIGHT NOW!"
 else
-	puts "Alrighty!"
+  puts "Alrighty!"
 end
 
 
@@ -85,40 +85,40 @@ end
 # Exercise 5
 
 def result2(num)
-	case
-	when num < 0
-		"No negative numbers!"
-	when num == 0
-		"You picked zero, really??"
-	when num <= 50
-		"#{num} is between 1 and 50."
-	when num <= 100
-		"#{num} is between 51 and 100."
-	when num <= 1000
-		"#{num} is greater than 100."
-	else
-		"#{num} is waaaayyyyyy more than 100!!!"
-	end
+  case
+  when num < 0
+    "No negative numbers!"
+  when num == 0
+    "You picked zero, really??"
+  when num <= 50
+    "#{num} is between 1 and 50."
+  when num <= 100
+    "#{num} is between 51 and 100."
+  when num <= 1000
+    "#{num} is greater than 100."
+  else
+    "#{num} is waaaayyyyyy more than 100!!!"
+  end
 end
 
 
 def result3(num)
-	case num
-	when 0
-		"You picked zero, really??"
-	when 1..50
-		"#{num} is between 1 and 50."
-	when 51..100
-		"#{num} is between 51 and 100."
-	when 101..1000
-		"#{num} is greater than 100."
-	else
-		if num < 0
-			"No negative numbers!"
-		else
-			"#{num} is waaaayyyyyy more than 100!!!"
-		end
-	end
+  case num
+  when 0
+    "You picked zero, really??"
+  when 1..50
+    "#{num} is between 1 and 50."
+  when 51..100
+    "#{num} is between 51 and 100."
+  when 101..1000
+    "#{num} is greater than 100."
+  else
+    if num < 0
+      "No negative numbers!"
+    else
+      "#{num} is waaaayyyyyy more than 100!!!"
+    end
+  end
 end
 
 

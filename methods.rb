@@ -4,7 +4,7 @@
 # Exercise 1
 
 def greeting(name)
-	"Hi, " + name + ", glad you could make it!"
+  "Hi, " + name + ", glad you could make it!"
 end
 
 puts greeting("John")
@@ -33,15 +33,15 @@ print something = "nothing"
 # Exercise 3
 
 def add(a, b)
-	a + b
+  a + b
 end
 
 def subtract(a, b)
-	a - b
+  a - b
 end
 
 def multiply(a, b)
-	a * b
+  a * b
 end
 
 puts multiply(add(44, 16), subtract(99, 27))
@@ -53,9 +53,9 @@ puts multiply(add(44, 16), subtract(99, 27))
 # Prints nothing to the screen, returns nil
 
 def scream(words)
-	words = words + "!!!!"
-	return
-	puts words
+  words = words + "!!!!"
+  return
+  puts words
 end
 
 scream("Yippeee")
@@ -67,8 +67,8 @@ scream("Yippeee")
 # Prints Yippeee!!!!, returns nil
 
 def scream(words)
-	words = words + "!!!!"
-	puts words
+  words = words + "!!!!"
+  puts words
 end
 
 scream("Yippeee")
