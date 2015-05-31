@@ -33,7 +33,7 @@ puts age + 40
 puts "Wow, #{first_name} is such an amazing name I have to say it ten more times!"
 
 10.times do
-	puts first_name
+  puts first_name
 end
 
 
@@ -53,7 +53,7 @@ puts "#{first_name} #{last_name}! Wow, your mother deserves a medal for that one
 # Adds 1 to x three times, puts 3 if x starts as 0.
 x = 0
 3.times do
-	x += 1
+  x += 1
 end
 
 puts x
@@ -62,8 +62,8 @@ puts x
 # Error because variable z is defined inside the block
 y = 0
 3.times do
-	y += 1
-	z = y
+  y += 1
+  z = y
 end
 
 puts z
